@@ -1,0 +1,20 @@
+changing colors of the terminal text usually usefull when debugging
+
+30m Black
+31m Red
+32m Green
+33m Yellow
+34m Blue
+35m Magenta
+36m Cyan
+37m White
+
+
+example
+    std::cout << "\033[31mThis is red text.\033[0m" << std::endl;
+    // Print green text
+    std::cout << "\033[32mThis is green text.\033[0m" << std::endl;
+    // Print bold blue text
+    std::cout << "\033[1;34mThis is bold blue text.\033[0m" << std::endl;
+    // Print text with yellow background
+    std::cout << "\033[43mThis text has a yellow background.\033[0m" << std::endl;
