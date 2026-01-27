@@ -1,0 +1,3 @@
+[submodule "basic_opengl/external/imgui"]
+	path = basic_opengl/external/imgui
+	url = https://github.com/ocornut/imgui.git
